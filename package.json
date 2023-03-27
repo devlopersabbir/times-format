@@ -1,0 +1,40 @@
+{
+  "name": "times-format",
+  "version": "0.0.3",
+  "description": "Simple times-format open source package",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devlopersabbir/times-format.git"
+  },
+  "keywords": [
+    "times-format",
+    "time-format",
+    "time-formater",
+    "format-time",
+    "timeformat",
+    "timeformatpackage",
+    "react-time-format"
+  ],
+  "author": "Sabbir Hossain <devlopersabbir@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devlopersabbir/times-format/issues"
+  },
+  "homepage": "https://github.com/devlopersabbir/times-format#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
